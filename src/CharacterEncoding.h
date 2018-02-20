@@ -11,10 +11,11 @@ https://github.com/ssuhrid/EmSevenSegment/
 // encoding for characters segments (common cathode with LSBFIRST)
 const byte NUMBERS[] = {
 	//ABCDEFG
+	
 	 B11111100, // 0
-	 B00110000, // 1
+	 B01010000, // 1
 	 B11011010, // 2
-	 B01111010, // 3
+	 B01110110, // 3
 	 B01100110, // 4
 	 B10110110, // 5
 	 B10111110, // 6
