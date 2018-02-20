@@ -12,9 +12,9 @@ https://github.com/ssuhrid/EmSevenSegment/
 const byte NUMBERS[] = {
 	//ABCDEFG
 	 B11111100, // 0
-	 B01100000, // 1
+	 B00110000, // 1
 	 B11011010, // 2
-	 B01101110, // 3
+	 B01111010, // 3
 	 B01100110, // 4
 	 B10110110, // 5
 	 B10111110, // 6
