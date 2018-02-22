@@ -6,16 +6,16 @@
 * https://github.com/ssuhrid/EmSevenSegment/
 */
 
-#ifndef EmSevenSegment_h
-#define EmSevenSegment_h
+#ifndef EmSevenSegmentb_h
+#define EmSevenSegmentb_h
 
 #include "Arduino.h"
 
-class EmSevenSegment{
+class EmSevenSegmentb{
 
   public :
-    EmSevenSegment(char type,uint8_t dataPin,uint8_t clockPin,uint8_t strobePin);
-    EmSevenSegment(int digits,char type,uint8_t dataPin,uint8_t clockPin,uint8_t strobePin);
+    EmSevenSegmentb(char type,uint8_t dataPin,uint8_t clockPin,uint8_t strobePin);
+    EmSevenSegmentb(int digits,char type,uint8_t dataPin,uint8_t clockPin,uint8_t strobePin);
     void test();
     void set(String s,char x);
     void print();
